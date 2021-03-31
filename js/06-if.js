@@ -77,5 +77,54 @@ console.log('......................');
 
 // logikos nestinimas
 
-const city = 'Vilnius';
+const city = 'utena';
 
+if (city === 'Vilnius') {
+    console.log('Sveiki atvyke i Vilniu');
+} else {
+
+    if (city === 'Kaunas') {
+        console.log('Sveiki atvyke i Kauna');
+    } else {
+        console.log("ka tu");
+    }
+}
+
+const vardas = 'ugne';
+
+if (vardas === 'simona') {
+    console.log('simona');
+} else {
+
+    if (vardas === 'petras') {
+        console.log('petras');
+    } else {
+
+        if (vardas === 'monika') {
+            console.log('monika');
+
+        } else {
+            console.log('nera tokio vardo');
+          }
+        }
+    }
+
+const pavarde = 'ka'
+
+if (pavarde === 'kvankst') {
+    console.log('kvankst');
+} else if (pavarde === 'kuki') {
+    console.log('kuki');
+} else console.log('hello');
+
+let arMokausi = true;
+
+if (arMokausi) {
+    console.log('saunuole');
+} else {
+    console.log('reik pailset');
+}
+
+const skaiciai = [1, 2, 3, 4, 5, 6];
+const paskutinisSkaicius = skaiciai[skaiciai.length - 1]
+console.log(paskutinisSkaicius); 
