@@ -61,3 +61,49 @@ switch (processStep) {
     console.log('6');
     break;
 }
+
+const diena = 'pirmadienis';
+
+switch (diena) {
+    case diena:
+        console.log('Labas pirmadieni');
+        
+
+    case vakaras:
+        console.log('Ate pirmadieni');
+        break;
+
+    default:
+        console.log('Ate');
+        break;
+}
+
+const vardas = 'ugne';
+
+switch (vardas) {
+    case 'onute':
+        console.log('grazus vardas');
+        break;
+
+    case 'petrute': 
+        console.log('keistas vardas');
+        break;
+
+    default:
+        console.log('nezinau tokio vardo');
+        break;
+    }
+
+    const nr2 = 4
+
+    switch (nr2) {
+        case 1:
+        case 2:
+        case 3:
+            console.log('darbo diena');
+        break;
+
+        default:
+            console.log('savaitgalis');
+        break;
+    }
